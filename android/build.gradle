@@ -20,9 +20,9 @@ rootProject.allprojects {
     }
 }
 
-project.getTasks().withType(JavaCompile){
-    options.compilerArgs.addAll(args)
-}
+//project.getTasks().withType(JavaCompile){
+//    options.compilerArgs.addAll(args)
+//}
 
 apply plugin: 'com.android.library'
 
